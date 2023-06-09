@@ -380,7 +380,7 @@ body {
 }
 
 #content main .profile .avatar-text .profile__ref {
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: 400;
 	color: var(--dark-grey);
 	text-align: center;
@@ -472,14 +472,13 @@ body {
 }
 
 #content main .column-first .head h3 {
-	margin-right: auto;
-	font-size: 24px;
+	font-size: 14px;
 	font-weight: 600;
 }
 
 #content main .column-first .head .head__btn {
-	width: 125px;
-	height: 35px;
+	width: 100px;
+	height: 25px;
 	color: var(--dark);
 	font-size: 12px;
 	border: none;
@@ -503,7 +502,7 @@ body {
 
 #content main .column-first .tasks table th {
 	padding-bottom: 12px;
-	font-size: 12px;
+	font-size: 8px;
 	font-weight: 400;
 	padding-right: 15px;
 	text-align: left;
@@ -511,7 +510,8 @@ body {
 }
 
 #content main .column-first .tasks table td {
-	padding: 16px 20px 16px 0;
+	padding: 16px 0;
+	font-size: 8px;
 }
 
 #content main .column-first .tasks table tr td:first-child {
@@ -520,8 +520,8 @@ body {
 }
 
 #content main .column-first .tasks table td img {
-	width: 36px;
-	height: 36px;
+	width: 15px;
+	height: 15px;
 	border-radius: 50%;
 	object-fit: cover;
 }
@@ -539,13 +539,13 @@ body {
 }
 
 #content main .column-first .tasks table tfoot .itog-tasks {
-	font-size: 20px;
+	font-size: 10px;
 	border-top: 1px solid var(--grey);
 	font-weight: 600;
 }
 
 #content main .column-first .tasks table tfoot .itog-tasks span {
-	font-size: 18px;
+	font-size: 10px;
 	font-weight: 400;
 }
 
@@ -607,6 +607,7 @@ body {
 #content main .table-finance .torix table td {
 	padding: 16px 0;
 	text-align: center;
+	font-size: 10px;
 }
 
 #content main .table-finance .torix table tbody tr:hover {
@@ -620,7 +621,7 @@ body {
 }
 
 #content main .table-finance .torix table tfoot .itog-finance span {
-	font-size: 16px;
+	font-size: 10px;
 	font-weight: 400;
 }
 
@@ -652,8 +653,8 @@ body {
 }
 
 #content main .table-finance .head .head__btn {
-	width: 100px;
-	height: 35px;
+	width: 80px;
+	height: 25px;
 	color: var(--dark);
 	font-size: 12px;
 	border: none;
@@ -665,8 +666,8 @@ body {
 }
 
 #content main .table-finance .head .head__button {
-	width: 100px;
-	height: 35px;
+	width: 80px;
+	height: 25px;
 	color: var(--dark);
 	font-size: 12px;
 	border: none;
@@ -695,7 +696,7 @@ body {
 
 #content main .table-finance .rubly table th {
 	padding-bottom: 12px;
-	font-size: 12px;
+	font-size: 8px;
 	font-weight: 400;
 	text-align: center;
 	border-bottom: 1px solid var(--grey);
@@ -709,6 +710,7 @@ body {
 #content main .table-finance .rubly table td {
 	padding: 16px 0;
 	text-align: center;
+	font-size: 8px;
 }
 
 #content main .table-finance .rubly table tbody tr:hover {
@@ -722,7 +724,7 @@ body {
 }
 
 #content main .table-finance .rubly table tfoot .itog-finance span {
-	font-size: 16px;
+	font-size: 9px;
 	font-weight: 400;
 }
 
@@ -898,8 +900,9 @@ body {
 	}
 
 	#content main .column-first .tasks table td p {
-		font-size: 12px;
-		padding-right: 15px;
+		font-size: 8px;
+		padding-right: 5px;
+		width: 86px;
 	}
 
 
@@ -1004,7 +1007,7 @@ body {
 	}
 
 	#content main .table-finance .head h3 {
-		font-size: 18px;
+		font-size: 10px;
 	}
 
 	.popup__input {
@@ -1041,6 +1044,27 @@ body {
 
 	#sidebar.hide {
 		width: 200px;
+	}
+
+	#sidebar {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 0;
+		height: 100%;
+		background: var(--light);
+		z-index: 2000;
+		font-family: var(--Onest);
+		transition: .3s ease;
+		overflow-x: hidden;
+		scrollbar-width: none;
+	}
+
+	#content {
+		position: relative;
+		width: calc(100% - 5px);
+		left: 5px;
+		transition: .3s ease;
 	}
 
 	#content main .head-title .left h1 {
@@ -1104,6 +1128,7 @@ body {
 
 	#content main .table-finance .torix table th {
 		padding-right: 15px;
+		font-size: 8px;
 	}
 
 }
