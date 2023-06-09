@@ -1060,6 +1060,10 @@ body {
 		flex-direction: column;
 	}
 
+	#content main .profile .finance__list {
+		width: 250px;
+	}
+
 	#content nav form .form-input {
 		display: none;
 	}
