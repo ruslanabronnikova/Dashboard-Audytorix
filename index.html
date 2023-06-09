@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<!-- Boxicons -->
+	<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+	<!-- My CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="./fonts/onest.css">
+	<title>Auditorix</title>
+</head>
+
+<body>
+
+	<!-- SIDEBAR -->
+	<section id="sidebar">
+		<a href="#" class="brand">
+			<img class="logo" src="./img/logo.svg">
+		</a>
+		<ul class="side-menu top">
+			<li class="active">
+				<a href="#">
+					<i class='bx bxs-dashboard'></i>
+					<span class="text">Главная</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-group'></i>
+					<span class="text">Мои реселлеры</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-message-dots'></i>
+					<span class="text">Задания</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-doughnut-chart'></i>
+					<span class="text">Мои тарифы</span>
+				</a>
+			</li>
+			<li>
+				<a href="#">
+					<i class='bx bxs-shopping-bag-alt'></i>
+					<span class="text">Купить тариф</span>
+				</a>
+			</li>
+		</ul>
+		<ul class="side-menu">
+			<li>
+				<a href="#">
+					<i class='bx bxs-cog'></i>
+					<span class="text">Настройки</span>
+				</a>
+			</li>
+			<li>
+				<a href="#" class="logout">
+					<i class='bx bxs-log-out-circle'></i>
+					<span class="text">Выход</span>
+				</a>
+			</li>
+		</ul>
+	</section>
+	<!-- SIDEBAR -->
+
+
+
+	<!-- CONTENT -->
+	<section id="content">
+		<!-- NAVBAR -->
+		<nav>
+			<i class='bx bx-menu'></i>
+			<div class="menu-user">
+				<form action="#">
+					<div class="form-input">
+						<input type="search" placeholder="Поиск">
+						<img class="search__icon" src="./img/Search-icon.svg">
+					</div>
+				</form>
+				<input type="checkbox" id="switch-mode" hidden>
+				<label for="switch-mode" class="switch-mode"></label>
+				<a href="#" class="notification">
+					<i class='bx bxs-bell'></i>
+				</a>
+				<a href="#" class="ava">
+					<img src="img/ava.jpg">
+				</a>
+			</div>
+		</nav>
+		<!-- NAVBAR -->
+
+		<!-- MAIN -->
+		<main>
+			<div class="head-title">
+				<div class="left">
+					<h1>Здравствуйте, Имя Фамилия Отчество</h1>
+				</div>
+			</div>
+
+			<div class="column-first">
+				<div class="profile">
+					<div class="profile__images">
+						<img class="avatar-background" src="./img/Background Image.png">
+						<img class="avatar" src="./img/Avatar.png">
+					</div>
+					<div class="avatar-text">
+						<h1 class="profile__name">Ваш ID в системе: 95 </h1>
+						<a href="/" class="profile__ref">Реселлерская ссылка</a>
+					</div>
+					<ul class="profile__finance">
+						<li class="finance__list">
+							<div class="finance__item">
+								<img class="finance__image" src="./img/iconday.svg">
+								<div class="finance__text">
+									<p class="text-name">Ресселерская активность</p>
+									<h2 class="text-number">XXX дней</h2>
+								</div>
+							</div>
+							<button class="finance__btn">Активировать</button>
+						</li>
+						<li class="finance__list">
+							<div class="finance__item">
+								<img class="finance__image" src="./img/iconrub.svg">
+								<div class="finance__text">
+									<p class="text-name">Всего рублей</p>
+									<h2 class="text-number">5000₽</h2>
+								</div>
+							</div>
+							<button class="finance__btn">Оплатить</button>
+						</li>
+						<li class="finance__list">
+							<div class="finance__item">
+								<img class="finance__image" src="./img/icontorix.svg">
+								<div class="finance__text">
+									<p class="text-name">Всего ториксов</p>
+									<h2 class="text-number">5000trx</h2>
+								</div>
+							</div>
+							<button class="finance__btn">Обменять</button>
+						</li>
+					</ul>
+				</div>
+
+				<div class="tasks">
+					<div class="head">
+						<h3>Задания</h3>
+						<button class="head__btn">Создать</button>
+					</div>
+					<div class="table__container">
+						<table>
+							<thead>
+								<tr>
+									<th>Номер</th>
+									<th>Соц.сеть</th>
+									<th>Задание</th>
+									<th>Стоимость задания</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>22</td>
+									<td>
+										<img src="./img/telega.png">
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</td>
+									<td>25trx</td>
+								</tr>
+								<tr>
+									<td>32</td>
+									<td>
+										<img src="./img/vk.png">
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</td>
+									<td>200trx</td>
+								</tr>
+								<tr>
+									<td>40</td>
+									<td>
+										<img src="./img/yout.png">
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</td>
+									<td>16trx</td>
+								</tr>
+								<tr>
+									<td>55</td>
+									<td>
+										<img src="./img/vk.png">
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</td>
+									<td>105trx</td>
+								</tr>
+								<tr>
+									<td>70</td>
+									<td>
+										<img src="./img/telega.png">
+									</td>
+									<td>
+										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+											tempor.
+										</p>
+									</td>
+									<td>40trx</td>
+								</tr>
+							</tbody>
+							<tfoot>
+								<tr class="itog-tasks">
+									<td colspan="2"></td>
+									<td><span>Итого заработано:</span></td>
+									<td>250trx</td>
+								</tr>
+							</tfoot>
+						</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="table-finance">
+				<div class="torix">
+					<div class="head">
+						<h3>Балловые доходы (в ториксах)</h3>
+						<button class="head__button">Еще</button>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>ID реселлера</th>
+								<th>Выполнено заданий</th>
+								<th>Получено</th>
+								<th>35% доход с реселлера</th>
+								<th>доход реселлера</th>
+								<th>доход 25% с дохода реселлера</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>25</td>
+								<td>35trx</td>
+								<td>15trx</td>
+								<td>80trx</td>
+								<td>10trx</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr class="itog-finance">
+								<td colspan="1"></td>
+								<td><span>Итого получено:</span></td>
+								<td>250trx</td>
+								<td>100trx</td>
+								<td>200trx</td>
+								<td>500trx</td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+
+				<div class="rubly">
+					<div class="head">
+						<h3>Доходы в рублях</h3>
+						<button class="head__btn">Еще</button>
+					</div>
+					<table>
+						<thead>
+							<tr>
+								<th>ID реселлера</th>
+								<th>Пакет</th>
+								<th>Стоимость</th>
+								<th>35% доход с реселлера</th>
+								<th>доход реселлера </th>
+								<th>доход 25% с дохода реселлера</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+							<tr>
+								<td>65</td>
+								<td>Старт</td>
+								<td>3900р</td>
+								<td>300р</td>
+								<td>200р</td>
+								<td>150р</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tfoot>
+								<tr class="itog-finance">
+									<td colspan="2"></td>
+									<td><span>Итого начислено:</span></td>
+									<td>1000р</td>
+									<td>2000р</td>
+									<td>5000р</td>
+								</tr>
+							</tfoot>
+						</tfoot>
+					</table>
+				</div>
+			</div>
+
+			<!-- Popup -->
+			<div class="popup popup_create_task">
+				<div class="popup__body">
+					<form class="popup__container popup__container_create_task" name="mesto" id="mestoform"
+						method="post" novalidate>
+						<h2 class="popup__title">Для возможности создания заданий, активируйте один из пакетов селлера
+						</h2>
+						<fieldset class="popup__items">
+							<div class="popup__item">
+								<select name="tarif" id="tarif-select" class="popup__input">
+									<option value="">-- Выберете пакет --</option>
+									<option value="start">СТАРТ</option>
+									<option value="vip">VIP</option>
+									<option value="premium">ПРЕМИУМ</option>
+								</select>
+								<button type="button" id="close"
+									class="popup__button popup__button-close popup__button_tarif_close animation-button"></button>
+								<button type="submit" id="create"
+									class="popup__button popup__button-submit popup__button_tarif_save">Автивировать</button>
+							</div>
+						</fieldset>
+					</form>
+				</div>
+			</div>
+		</main>
+		<!-- MAIN -->
+	</section>
+	<!-- CONTENT -->
+	<script src="script.js"></script>
+</body>
+
+</html>
